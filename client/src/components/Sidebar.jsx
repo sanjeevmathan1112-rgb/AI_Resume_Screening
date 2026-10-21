@@ -87,17 +87,6 @@ const Sidebar = ({ isOpen, onClose }) => {
             </NavLink>
           ))}
         </nav>
-
-        {/* Responsible AI Disclaimer Banner */}
-        <div className="p-3 m-3 rounded-lg bg-slate-900/90 dark:bg-slate-950/80 border border-slate-800 text-[11px] text-slate-400 leading-snug">
-          <p className="font-semibold text-slate-300 mb-1 text-[11px]">Responsible AI</p>
-          AI-generated matching scores support recruiter review and should not replace human judgment.
-        </div>
-
-        {/* Footer info */}
-        <div className="px-6 py-3 border-t border-slate-800/80 text-[10px] text-slate-500">
-          College Project Edition • v2.0
-        </div>
       </aside>
     </>
   );
