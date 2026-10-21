@@ -23,7 +23,7 @@ const connectDB = async () => {
     const conn = await mongoose.connect(fallbackUri, {
       serverSelectionTimeoutMS: 3000
     });
-    console.log(`MongoDB Connected (Local Fallback): ${conn.connection.host}`);
+    console.log(`MongoDB Connected: ${conn.connection.host}`);
     return conn;
   } catch (err) {
     console.error(`Fatal: Could not connect to MongoDB. ${err.message}`);
